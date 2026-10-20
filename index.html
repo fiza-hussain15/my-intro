@@ -10,12 +10,89 @@
 </head>
 
 <body>
-    <main class="introduction">
-        <p class="eyebrow">Hello, I am</p>
-        <h1>Fiza Hussain</h1>
-        <p class="description">A Computer Science and Engineering student, curious about technology and always learning
-            something new exciting. I am from Jharkhand.</p>
-    </main>
+    <nav class="navbar" aria-label="Main navigation">
+        <a href="#home" class="logo">Fiza.</a>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </div>
+        <button id="themeToggle" type="button" aria-label="Switch to dark mode">
+            🌙 Dark Mode
+        </button>
+
+    </nav>
+
+    <div class="container">
+
+        <!-- Home Section  -->
+        <main class="introduction" id="home">
+            <div class="profile-container">
+                <img src="fiza.jpeg" alt="Fiza's profile photo" class="profile-photo">
+            </div>
+            <p class="eyebrow">Hello, I am</p>
+            <h1>Fiza Hussain</h1>
+            <p class="typing-text">
+                I am a <span id="typing"></span><span class="cursor">|</span>
+            </p>
+            <p class="description">
+                A Computer Science and Engineering student, curious about technology and always learning
+                something new exciting. I am from Jharkhand.
+            </p>
+        </main>
+
+        <!-- About Me Section -->
+        <section class="about" id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a CSE student who enjoys exploring technology
+                and learning new things. I am interested in
+                developing my skills and growing as a programmer.
+            </p>
+
+        </section>
+        <!-- My Skills Section -->
+        <section class="skills" id="skills">
+
+            <h2>My Skills & Interests</h2>
+
+            <p class="skills-description">
+                Here are some technologies I am learning.
+            </p>
+
+            <div class="skills-list">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">Python</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Problem Solving</span>
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+
+            <h2>My Projects</h2>
+
+            <p>
+                <strong>Personal Portfolio Website</strong>
+            </p>
+
+            <p>
+                A personal website built using HTML, CSS and
+                JavaScript to introduce myself and showcase
+                my skills.
+            </p>
+
+        </section>
+
+    </div>
+
 </body>
 
 </html>
